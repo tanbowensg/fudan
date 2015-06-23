@@ -1,0 +1,158 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+#bgdiv{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	 background: url(icon/bg_2.jpg) no-repeat center center fixed;
+	 background-size: cover;
+
+}
+
+#indexdiv{
+	position: relative;
+	height: 300px;
+	width: 740px;
+	top: 15%;
+}
+
+#welcomediv{
+	color: #2257C9;
+	float: left;
+	width: 450px;
+}
+
+#welcomediv h1{
+	margin-bottom: 20px;
+	font-size: 38px;
+	font-style: bold;
+}
+
+#welcome{
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+#logdiv{
+	float: right;
+	width: auto;
+}
+
+#logindiv{
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px;
+	padding: 10px;
+	height: 83px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.logdivtitle{
+	margin-bottom: 3px;
+}
+
+#logdiv input{
+	margin: 2px;
+	height: 25px;
+	width: 250px;
+}
+
+
+
+#login {/*登录按钮*/
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px;
+	background-color: #55acee;
+	color: white;
+	width: 50px !important;
+	cursor: pointer;
+	}
+
+#remenberlabel{
+	display: inline-block;
+	margin-top: 5px;
+	height: 10px;
+	font-size: 10px;
+}
+
+#remenbercheckbox{
+	height: 12px !important;
+	width: 12px !important;
+}
+
+#forgetpsw{
+	display: inline-block;
+	margin-top: 5px;
+	height: 10px;
+	font-size: 10px;
+}
+
+#registerdiv{
+	position: relative;
+	height: auto;
+	width: 250px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px;
+}
+
+#register{/*注册按钮*/
+	position: relative;
+	margin-left: 200px !important;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px;
+	background-color: orange;
+	color: white;
+	width: 50px !important;
+	cursor: pointer;	
+}
+
+#contract{/*注册协议*/
+	position: absolute;
+	bottom: 20px;
+	right: 80px;
+	height: 10px;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.rlabel{
+	padding-left: 12px;
+	margin-left: 2px;
+	background-image: url(icon/error.png);
+	background-size: 10px;
+	background-repeat: no-repeat;
+	font-size: 12px;
+}
+
+#visit{
+	position: absolute;
+	bottom: 13px;
+	left: 15px;
+	text-decoration: none;
+	color: #2257C9;
+}
+
+#visit:hover{
+	text-decoration: underline;
+}
+
+/*-------------------*/
+
+footer{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 400px;
+	color: white;
+	font-size: 20px;
+}
