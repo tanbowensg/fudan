@@ -9,11 +9,13 @@ $(function(){
 			event.preventDefault();
 		}
 	})
+
 	//光标移动时检测用户名是否合法
 	$("#rname").blur(function(event){
 		var rname=$("#rname").prop("value");
 		nameValidateblur(rname);
 	})
+    
 	//点击注册时，检测注册信息是否完整和合法
 	$("#register").click(function(event){
 		event.preventDefault();
@@ -28,6 +30,7 @@ $(function(){
 		}
 		else{
 			$("#emailvalid").hide(300);
+            $("#registerform").submit();
 		}
 		nameValidateblur(rname);
 	})

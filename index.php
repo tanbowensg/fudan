@@ -41,7 +41,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>萨堡MARKET</title>
+	<title>复旦MARKET</title>
 	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 	<script type="text/javascript" src="js/js.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
@@ -53,7 +53,7 @@
 		<div  class="container center-block">
 			<div class='row'>
 				<div id="welcomediv" class="col-xs-5 col-xs-push-6 col-sm-6 col-sm-push-6 col-md-7 col-md-push-5 col-lg-7 col-lg-push-5" >
-					<h1>Willkommen in Salzburg Markt</h1>
+					<h1>欢迎来到复旦MARKET</h1>
 
 					>>>　<a id="visit" class="btn btn-sm btn-warning" href="showitem.php">随便看看</a>
 				</div>

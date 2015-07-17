@@ -131,7 +131,7 @@
 						</div>
 						<div class="form-group">
 							<label class="sr-only" for="title">内容</label>
-							<textarea class="uploadinput " id="mailcontent" name="mailcontent" placeholder="站内信内容 必填项" required aria-required="true"></textarea>
+							<textarea class="uploadinput form-control " id="mailcontent" name="mailcontent" placeholder="站内信内容 必填项" required aria-required="true"></textarea>
 						</div>
 				</div>
 				<div class="modal-footer">
